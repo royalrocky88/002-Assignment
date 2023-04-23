@@ -1,0 +1,27 @@
+
+
+.tab-list {
+    list-style-type: none;
+    padding: 0px;
+  }
+  
+  .each-tab-btn {
+    font-size: 25px;
+    font-weight: bold;
+    height: 40px;
+    width: auto;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #2563eb;
+    border-bottom: 2px solid #2563eb;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .each-tab-btn {
+      font-size: 18px;
+      width: 100%;
+    }
+  }
+  
